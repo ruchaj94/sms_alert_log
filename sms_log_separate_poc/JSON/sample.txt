@@ -1,0 +1,10 @@
+{
+  "fw_version": "1.4",
+  "bot_id": "EBTES8E0D84",
+  "time": "2020/07/15 06:35:00",
+  "record_time": 4294967295,
+  "slave_id": 7,
+  "a_vrms": 232.789,
+  "t_pf": 0.4500,
+  "t_watth": 0.536655
+}

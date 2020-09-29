@@ -1,0 +1,41 @@
+{
+  "name": "package.json",
+  "version": "1.0.0",
+  "description": "DAL server to accept multiple meter inputs",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "keywords": [
+    "node-js",
+    "energy-monitoring-systems",
+    "javascript",
+    "data",
+    "abstraction",
+    "layer"
+  ],
+  "author": "omkarlanghe@elliotsystems.com",
+  "license": "ISC",
+  "homepage": "",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.0",
+    "config": "^3.2.3",
+    "cors": "^2.8.5",
+    "dateformat": "^3.0.3",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "ieee-float": "^0.6.0",
+    "lodash": "^4.17.19",
+    "mongodb": "^3.3.2",
+    "mqtt": "^3.0.0",
+    "msg91-sms": "^1.0.1",
+    "nocache": "^2.1.0",
+    "nodemon": "^2.0.4",
+    "pm2": "^4.4.1"
+  }
+}

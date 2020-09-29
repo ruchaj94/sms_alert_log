@@ -1,0 +1,9 @@
+software-gateway-version-2/
+node_modules/
+.env
+smslog.txt
+/package-lock.json
+after_sending_sms_log.txt
+before_sending_message_log.txt
+ellio_vankuswade_15-16July.json
+time_of_message_format_generation_log.txt

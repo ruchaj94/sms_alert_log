@@ -1,0 +1,94 @@
+{
+    "PowerFactorPenalty": [
+        {
+            "RangeUpperLimit": 1,
+            "RangeLowerLimit": 0.995,
+            "Penalty": 3.5
+        },
+        {
+            "RangeUpperLimit": 0.994,
+            "RangeLowerLimit": 0.985,
+            "Penalty": 2.5
+        },
+        {
+            "RangeUpperLimit": 0.984,
+            "RangeLowerLimit": 0.975,
+            "Penalty": 1.5
+        },
+        {
+            "RangeUpperLimit": 0.974,
+            "RangeLowerLimit": 0.965,
+            "Penalty": 1
+        },
+        {
+            "RangeUpperLimit": 0.964,
+            "RangeLowerLimit": 0.955,
+            "Penalty": 0.5
+        },
+        {
+            "RangeUpperLimit": 0.954,
+            "RangeLowerLimit": 0.895,
+            "Penalty": 0
+        },
+        {
+            "RangeUpperLimit": 0.894,
+            "RangeLowerLimit": 0.885,
+            "Penalty": -1
+        },
+        {
+            "RangeUpperLimit": 0.884,
+            "RangeLowerLimit": 0.875,
+            "Penalty": -1.5
+        },
+        {
+            "RangeUpperLimit": 0.874,
+            "RangeLowerLimit": 0.865,
+            "Penalty": -2
+        },
+        {
+            "RangeUpperLimit": 0.864,
+            "RangeLowerLimit": 0.855,
+            "Penalty": -2.5
+        },
+        {
+            "RangeUpperLimit": 0.854,
+            "RangeLowerLimit": 0.845,
+            "Penalty": -3
+        },
+        {
+            "RangeUpperLimit": 0.844,
+            "RangeLowerLimit": 0.835,
+            "Penalty": -3.5
+        },
+        {
+            "RangeUpperLimit": 0.834,
+            "RangeLowerLimit": 0.825,
+            "Penalty": -4
+        },
+        {
+            "RangeUpperLimit": 0.824,
+            "RangeLowerLimit": 0.815,
+            "Penalty": -4.5
+        },
+        {
+            "RangeUpperLimit": 0.814,
+            "RangeLowerLimit": 0.805,
+            "Penalty": -5
+        },
+        {
+            "RangeUpperLimit": 0.804,
+            "RangeLowerLimit": 0.001,
+            "Penalty": -5
+        },
+        {
+            "RangeUpperLimit": 0,
+            "RangeLowerLimit": 0,
+            "Penalty": 0
+        }
+    ],
+    "PF_Info_Upper_Threshold": 0.954,
+    "PF_Info_Lower_Threshold": 0.92,
+    "PF_Warning_Upper_Threshold": 0.92,
+    "PF_Warning_Lower_Threshold": 0.895,
+    "PF_Alert_Threshold": 0.895
+}
