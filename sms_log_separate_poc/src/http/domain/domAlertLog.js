@@ -14,6 +14,21 @@ exports.getAlertLog = async (p_Data) => {
     }
 };
 
+//getSmsLog
+
+exports.getSmsLog = async () => {
+    
+    try {
+        let result = await DB_ALERT_LOG.getSmsLog();
+         return (result);
+    } catch (error) {
+        console.log("-------------------------------------------------------------");
+        console.log(error);
+        console.log("-------------------------------------------------------------");
+        throw error;
+    }
+};
+
 
 exports.saveDeliveryReport = async (p_query,p_Data) => {
     

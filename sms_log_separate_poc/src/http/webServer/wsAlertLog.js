@@ -18,6 +18,26 @@ exports.getAlertLog = async (req, res) => {
     }
 };
 
+//getSmsLog
+exports.getSmsLog = async (req, res) => {
+    try {
+        // if (!req._body) {
+        //     let error = new Error('Body cannot be empty.');
+        //     throw error;
+        // }
+
+        // if (Object.keys(req.body).length === 0) {
+        //     let error = new Error('Object cannot be empty.');
+        //     throw error;
+       // }
+        let result = await PRES_Alert_Log.getSmsLog();
+        res.json(result);
+    } catch (error) {
+        res.status(400).json(error.message);
+    }
+};
+
+
 exports.saveDeliveryReport = async (req, res) => {
     try {
         // if (!req._body) {

@@ -28,6 +28,7 @@ const httpServer = http.createServer(app);
 httpsServer.listen(CONFIGURATION.HTTPS_PORT, HOST_NAME);
 httpServer.listen(CONFIGURATION.HTTP_PORT, HOST_NAME);
 
+
 console.log('Node Server is running on port: ' + CONFIGURATION.HTTP_PORT + ' and ' + CONFIGURATION.HTTPS_PORT + ' with HostName => ' + HOST_NAME);
 
 

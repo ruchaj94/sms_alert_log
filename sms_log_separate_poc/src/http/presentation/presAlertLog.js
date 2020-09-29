@@ -3,7 +3,7 @@ const { sendReport } = require('../../controllers/sms-controller');
 
 exports.getAlertLog = async (p_Data) => {
     try {
-        console.log("P-data : ",p_Data);
+        //console.log("P-data : ",p_Data);
         for(i=0; i<p_Data.NUMBERS.length; i++)
         {
             let result = await sendReport(p_Data.NUMBERS[i], p_Data.message);
@@ -11,6 +11,17 @@ exports.getAlertLog = async (p_Data) => {
             let result1 = await DOM_ALERT_LOG.getAlertLog(result);
         }
         return (true);
+    } catch (error) {
+        throw error;
+    }
+};
+
+//getSmsLog
+exports.getSmsLog = async () => {
+    try {
+       
+        let result1 = await DOM_ALERT_LOG.getSmsLog();
+        return (result1);
     } catch (error) {
         throw error;
     }

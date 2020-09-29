@@ -23,8 +23,7 @@ const COLLECTION_NAMES = {
     users: 'users',
     powerFactorAlerts: 'powerFactorAlerts',
     modbusRaw: 'modbusRaw',
-    smsLog: 'smsLog',
-    deliveryReport: 'deliveryReport'
+    smsLog: 'smsLog'
 }
 
 module.exports = {
